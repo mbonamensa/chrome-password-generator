@@ -24,7 +24,7 @@ const output              = document.querySelector("#numoutput")
 
 /* 
 ------------------------------------------------------------
-Function for showing output number oniput from range slider
+Function for showing output number oninput from range slider
 ------------------------------------------------------------
 */
 function showOutput() {
