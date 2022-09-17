@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
+        <!-- CSS style sheet -->
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body>
+
+        <main>
+            <div class="main-container">
+                <div class="heading-container">
+                    <h1>Generate a <span id="heading-color-chg">random password</span></h1>
+                    <p>Never use an insecure password again.</p>
+                </div>
+                <div class="pwd-container">
+                    <div id="copied">copied!</div>
+                    <div id="password" class="passwords"></div>
+                </div>
+                <div class="btn-container">
+                    <button id="gen-password">Generate Password</button>
+                    <button id="cpy-password">Copy Password</button>
+                </div>
+                <div class="length-container">
+                    <div class="range-container">
+                        <input type="range" name="pwd-length" id="pwd-length-range" value="10" min="5" max="30">
+                        <output type="number" id="numoutput" class="pwd-length-num">10</output>
+                    </div>
+                </div>
+                <div class="custom-container">
+                    <div class="custom-item number">
+                        <!-- <label for="checkbox"><input type="checkbox">Numbers (123)</label> -->
+                        <input type="checkbox" id="numbers"><label for="numbers">Numbers (123)</label>
+                    </div>
+                    <div class="custom-item symbol">
+                        <!-- <label for="checkbox"><input type="checkbox">Symbols ($#%)</label> -->
+                        <input type="checkbox" id="symbols"><label for="symbols">Symbols ($#%)</label>
+                    </div>
+                </div>            
+            </div>
+        </main>
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+
+</html>

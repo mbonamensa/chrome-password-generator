@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Password Generator",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "img/apple-touch-icon.png"
+    }
+}

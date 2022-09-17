@@ -1,0 +1,198 @@
+/*** Font ***/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+/*** Root styles ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;;
+}
+
+body {
+    background: #1F2937;
+    min-width: 500px;
+}
+
+p {
+    color: #D5D4D8;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+/*** Main ***/
+main {
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+/*** Heading ***/
+.heading-container {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#heading-color-chg {
+    color: #0284C7;
+    display: block;
+}
+
+
+/*** Password ***/
+.pwd-container {
+    position: relative;
+}
+
+.passwords {
+    height: 39px;
+    border-radius: 5px;
+    background-color: #273549;
+    color: #0EA5E9;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 22px;
+    justify-content: center;
+}
+
+#copied {
+    width: 60px;
+    text-align: center;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    position: absolute;
+    right: 0;
+    border: 1px solid;
+    bottom: 46px;
+    color: lightblue;
+    visibility: hidden;
+}
+
+
+
+/*** Password Length ***/
+
+.length-container {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.range-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.custom-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.custom-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+.number {
+    margin-right: 30px;
+}
+
+input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+/*** Styling Password length range input ***/
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #273549;
+    background-image: linear-gradient(#0284C7, #0284C7);
+    background-size: 20% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 85%;
+    border-radius: 20px;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    height: 5px;
+    border: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 17px;
+    width: 17px;
+    background-color: #D5D4D8 ;
+    border-radius: 50%;
+    margin-top: -6px;
+    transition: background-color .3s ease-in-out;
+}
+
+
+output[type="number"] {
+    background: #273549;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*** Button ***/
+.btn-container {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #0284C7;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 200px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #036fa7;
+}
+
+button:active {
+    background-color: #035e8d;
+}
+
+
+
+
