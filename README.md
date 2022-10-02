@@ -1,5 +1,5 @@
 # Chrome Password Generator
-This random password generator is a chrome exension that I use personally. You're welcome to download the files and use as well :)
+This random password generator is a chrome extension that I use personally. You're welcome to download the files and use them as well :)
 
 ## Steps to add extension to your Chrome browser locally.
 1. Download the files from the repository.
